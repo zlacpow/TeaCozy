@@ -1,0 +1,144 @@
+* {
+    font-family: Helvetica;
+    color: gray;
+    opacity: 0.9;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    background-color: black;
+}
+
+h2,h4 {
+    font-weight: bold;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid gray;
+    background-color: black;
+}
+
+img {
+    height: 50px;
+    position: relative;
+    left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    text-decoration: underline;
+    margin: 15px;
+}
+
+section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mission {
+    background-image: url(images/img-mission-background.webp);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission > div {
+    background-color: black;
+    width: 1200px;
+}
+
+.month {
+    width: 1000px;
+}
+
+.headline {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.headline > h4,h2 {
+    margin: 10px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea {
+    height: 228px;
+    width: 300px;
+    margin: 10px;
+}
+
+.tea > img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea > h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.last {
+    background-image: url(images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+}
+
+
+.locations {
+    display: flex;
+    align-items: center;
+    background-color: none;
+    justify-content: center;
+
+}
+
+.location {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.copyright {
+    position: relative;
+    text-align: left;
+    margin: 20px
+}
+
+
+
+
+
+
+
+
+
+
